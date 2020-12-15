@@ -1,0 +1,64 @@
+#galeria{
+	width:460px;
+	height:555px;
+	background-size:450px 550px;
+	background-repeat:no-repeat;
+	margin:auto;
+	margin-top:1%
+	animation-name:gal;
+	-webkit-animation-name:gal;
+	-moz-animation-name:gal;
+	-o-animation-name:gal;
+	animation-duration:500s;
+	-webkit-animation-duration:500s;
+	-moz-animation-duration:500s;
+	-o-animation-duration:500s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite;
+
+}
+@keyframes gal{
+	50%{	 background: url(portada.jpg);
+		 background-size: 450px 550px;
+		 background-repeat: no-repeat;}
+	100%{	background: url(logo.png);
+		background-size: 450px 550px;
+		background-repeat: no-repeat;}
+
+}
+@-webkit-keyframes gal{
+	50%{	 background: url(matricula.jpg);
+		 background-size: 450px 450px;
+		 background-repeat: no-repeat;}
+	100%{	background: url(logo.png);
+		background-size: 450px 450px;
+		background-repeat: no-repeat;}
+}
+@-webkit-keyframes gal{
+	50%{	 background: url(matricula2.jpg);
+		 background-size: 450px 450px;
+		 background-repeat: no-repeat;}
+	100%{	background: url(logo.png);
+		background-size: 450px 450px;
+		background-repeat: no-repeat;}
+}
+@-moz-keyframes gal{
+	50%{	 background: url(semana.jpg);
+		 background-size: 450px 450px;
+		 background-repeat: no-repeat;}
+	100%{	background: url(logo.png);
+		background-size: 450px 450px;
+		background-repeat: no-repeat;}
+
+}
+@-o-keyframes gal{
+	50%{	 background: url(parvularia.jpg);
+		 background-size: 450px 450px;
+		 background-repeat: no-repeat;}
+	100%{	background: url(logo.png);
+		background-size: 450px 450px;
+		background-repeat: no-repeat;}
+
+}
